@@ -1,0 +1,16 @@
+.container {
+  background: black;
+  animation: changeColor 2s linear infinite;
+  transition: all 0.2s linear;
+}
+@keyframes changeColor {
+  0% {
+    background: black;
+  }
+  50% {
+    background: rgb(44, 43, 43);
+  }
+  100% {
+    background: black;
+  }
+}
